@@ -13,7 +13,34 @@
     color: rgb(10, 158, 216);
 }
 
+.main-header{
+    background: radial-gradient(#fff, #ffd4d4);
+}
+
 .container{
     width: 80%;
     margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    /* display: inline-block; */
+    padding-left: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 18px;
+    text-transform: capitalize;
 }
