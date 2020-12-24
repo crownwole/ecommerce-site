@@ -35,7 +35,7 @@
 
 .navbar ul li{
     /* display: inline-block; */
-    padding-left: 20px;
+    padding: 15px;
 }
 
 .navbar ul li a{
@@ -77,10 +77,162 @@
     background-color: #ff523b;
     padding: 20px 30px;
     color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: background 0.9s;
 }
 
 .btn:hover{
     background-color: #563434;
 }
+
+.row{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.main-container{
+    width: 65%;
+    margin: auto;
+}
+
+/* featured product */
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.fas{
+    color: #ff523b;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.title::after{
+content: "";
+background-color: #ff523b;
+width: 100px;
+height: 5px;
+position: absolute;
+bottom: 0px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+/* offer content */
+
+.offer-section{
+    background: radial-gradient(#fff, #ffd4d4);
+}
+
+.brand{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section-image{
+    flex-basis: 50%;
+}
+
+.section-image img{
+    width: 100%;
+}
+
+.section-content{
+    flex-basis: 50%;
+}
+
+.botton{
+    margin-top: 40px;
+}
+
+/* testimonial */
+
+.fa{
+    color: #ff523b;
+}
+
+.main-testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.testimonial-box{
+    flex-basis: 30%;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    min-width: 200px;
+    transition: transform 0.5s;
+    margin-bottom: 80px;
+}
+
+.testimonial-box:hover{
+    transform: translateY(10px);
+}
+
+.testimonial-box img{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.testimonial-box p{
+    font-size: 12px;
+    color: gray;
+}
+
+/* branding */
+
+.branding-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding-image{
+    flex-basis: 16%;
+}
+
+.branding-image img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.branding-image img:hover{
+    filter: grayscale(0);
+}
+
+
