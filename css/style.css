@@ -214,6 +214,9 @@ transform: translateX(-50%);
 }
 
 /* branding */
+.branding-logo{
+    margin-bottom: 100px;
+}
 
 .branding-box{
     display: flex;
@@ -234,5 +237,50 @@ transform: translateX(-50%);
 .branding-image img:hover{
     filter: grayscale(0);
 }
+
+.footer{
+    background-color: black;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-image{
+    flex-basis: 16px;
+    flex-wrap: wrap;
+}
+
+.footer-image .image-col{
+    padding: 15px;
+}
+
+.main-footer p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main-footer h3{
+    color: white;
+    text-align: center;
+}
+
+.copy-right p{
+text-align: center;
+color: white;
+padding-bottom: 50px;
+}
+
+.copy-right a{
+    text-decoration: none;
+    color: white;
+}
+   
+
 
 
